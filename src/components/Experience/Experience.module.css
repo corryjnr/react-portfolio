@@ -116,7 +116,22 @@
 
     .history {
         width: 100%;
-        gap: 9px;
+        gap: 10px;
+    }
+
+    .historyItemDetails h3 {
+        font-size: 23px;
+    }
+
+    .historyItemDetails p {
+        font-size: 17px;
+    }
+
+    .historyItemDetails ul {
+        margin-top: 6px;
+        font-size: 16px;
+        list-style-type: disc;
+        margin-left: 10px;
     }
 
     .skillImageContainer {
