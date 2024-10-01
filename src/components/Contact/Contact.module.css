@@ -64,11 +64,14 @@
     }
 
     .text p {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .links {
         align-items: center;
+    }
+    .link {
+        gap: 5px;
     }
 
     .link a {
