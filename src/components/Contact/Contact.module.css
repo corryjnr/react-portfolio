@@ -64,7 +64,7 @@
     }
 
     .text p {
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .links {
@@ -72,6 +72,10 @@
     }
     .link {
         gap: 5px;
+    }
+
+    .link img {
+        width: 15%;
     }
 
     .link a {
