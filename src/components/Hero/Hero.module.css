@@ -49,7 +49,6 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -98,10 +97,29 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
+        margin-top: 5px;
     }
-
+    
     .content {
         align-items: center;
     }
     
+    .title {
+        align-items: center;
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .contactBtn {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .heroImg {
+        top: 0;
+    }
 }

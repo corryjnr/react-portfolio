@@ -59,4 +59,7 @@
     }
     
     .links {align-items: center;}
+    .link a {
+        font-size: 20px;
+    }
 }
