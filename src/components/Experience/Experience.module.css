@@ -104,7 +104,6 @@
     .content {
         flex-direction: column;
         align-items: center;
-        gap: 0px;
     }
     
     .skills {
@@ -119,6 +118,10 @@
         gap: 10px;
     }
 
+    .historyItem img {
+        width: 30px;
+    }
+
     .historyItemDetails h3 {
         font-size: 23px;
     }
@@ -131,7 +134,7 @@
         margin-top: 6px;
         font-size: 16px;
         list-style-type: disc;
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     .skillImageContainer {

@@ -59,3 +59,42 @@
     background: var(--color-primary);
     padding: 1px 22px;
 }
+
+@media screen and (max-width: 830px) {
+    .container {
+        padding: 10px 15px;
+        max-width: 345px;
+    }
+
+    .image {
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .description {
+        margin-top: 2px;
+        font-size: 20px;
+    }
+
+    .skill {
+        font-size: 22px;
+        font-weight: 400;
+        padding: 2px 13px;
+    }
+
+    .links {
+        width: 100%;
+        margin-top: 22px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .link {
+        font-size: 25px;
+        font-weight: 400;
+        padding: 1px 22px;
+    }
+}
