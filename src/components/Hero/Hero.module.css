@@ -98,6 +98,8 @@
     .container {
         flex-direction: column-reverse;
         margin-top: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     .content {
@@ -107,6 +109,7 @@
     .title {
         align-items: center;
         font-size: 50px;
+        margin-top: 20px;
     }
 
     .description {
