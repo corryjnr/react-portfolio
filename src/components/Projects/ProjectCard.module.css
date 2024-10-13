@@ -64,7 +64,7 @@
 @media screen and (max-width: 830px) {
     .container {
         padding: 10px 15px;
-        max-width: 345px;
+        max-width: 100%;
     }
 
     .image {
@@ -72,16 +72,17 @@
     }
 
     .title {
-        font-size: 25px;
+        font-size: 23px;
+
     }
 
     .description {
         margin-top: 2px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .skill {
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 400;
         padding: 2px 13px;
     }
@@ -89,12 +90,13 @@
     .links {
         width: 100%;
         margin-top: 22px;
+        margin-bottom: 10px;
         display: flex;
         justify-content: space-around;
     }
 
     .link {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 400;
         padding: 1px 22px;
     }
