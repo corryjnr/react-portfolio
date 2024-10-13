@@ -8,6 +8,10 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.svg"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -26,5 +30,21 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.svg"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.svg"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/spring.svg"
   }
 ]
