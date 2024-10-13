@@ -24,10 +24,6 @@
     "imageSrc": "skills/graphql.png"
   },
   {
-    "title": "PostgreSQL",
-    "imageSrc": "skills/postgresql.png"
-  },
-  {
     "title": "Python",
     "imageSrc": "skills/python.png"
   },
@@ -42,5 +38,9 @@
   {
     "title": "Spring",
     "imageSrc": "skills/spring.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
   }
 ]
