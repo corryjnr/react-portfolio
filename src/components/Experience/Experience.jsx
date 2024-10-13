@@ -23,7 +23,7 @@ export const Experience = () => {
                     </div>
                 </div>
             </section>
-
+            {/*
             <section className={styles.container} id="experience">
                 <h2 className={styles.title}>Experience</h2>
                 <div className={styles.content}>
@@ -51,6 +51,7 @@ export const Experience = () => {
                     </ul>
                 </div>
             </section>
+            */}
         </>
     )
 }

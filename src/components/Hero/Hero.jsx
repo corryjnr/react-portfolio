@@ -7,7 +7,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Corry</h1>
-                <p className={styles.description}>{`A fullstack developer with 1 year of experience using React and NextJS. Reach out if you'd like to learn more!`}</p>
+                <p className={styles.description}>{`I'm a passionate full-stack developer always exploring new ways to bring creative ideas to life. Driven by curiosity and a love for problem-solving, I aim to make a lasting impact through innovation and technology. Let’s connect and create something amazing together!`}</p>
                 <a href='mailto:michaelcorry01@gmail.com' className={styles.contactBtn}>Contact Me</a>
             </div>
             <img src={getImageUrl("hero/heroNew.png")} alt="Hero image of me" className={styles.heroImg} />
