@@ -30,7 +30,6 @@
     font-size: clamp(40px, 8vw, 80px);
     line-height: 1.1;
     font-weight: 600;
-    font-family: var(--font-sans);
     color: var(--lightest-slate);
     -webkit-font-smoothing: antialiased;
 }
@@ -74,7 +73,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
-        margin-top: 25%;
+        margin-top: 15px;
         margin-left: 10%;
         margin-right: 10%;
     }
