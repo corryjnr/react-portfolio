@@ -8,7 +8,6 @@
     padding-top: 21px;
     z-index: 2;
     margin: 0 10%;
-    font-family: var(--font-mono);
 }
 
 .logo {
@@ -37,9 +36,10 @@
 }
 
 .menuItems a {
-    font-size: 25px;
+    font-size: var(--fz-xl);
     color: var(--blue);
     text-decoration: none;
+    font-family: var(--font-mono);
 }
 
 @media screen and (max-width: 830px) {
@@ -68,13 +68,17 @@
     .menuItems {
         display: none;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         gap: 13px;
         border-radius: 10px;
         background: rgb(25, 55, 109);
         background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
         padding: 23px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menuItems a {
+        font-size: var(--fz-md);
     }
 
     .menuOpen {
