@@ -83,6 +83,7 @@
 
     .aboutImage {
         display: none;
+        width: 20%;
     }
     
     .aboutItems {
@@ -98,8 +99,12 @@
         padding-bottom: 5px;
     }
 
+    .aboutItem h3 {
+        font-size: var(--fz-xl);
+    }
+
     .aboutItem p {
-        font-size: 20px;
+        font-size: var(--fz-md);
     }
 
     .aboutItemText {

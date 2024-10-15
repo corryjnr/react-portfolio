@@ -146,11 +146,11 @@
     }
 
     .skillImageContainer img {
-        width: 100%;
+        width: 80%;
     }
 
     .skill p {
-        font-size: var(--fz-md);
+        font-size: var(--fz-sm);
         font-weight: 400;
     }
 
