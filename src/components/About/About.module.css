@@ -2,19 +2,19 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: var(--navy);
     border-radius: 15px;
-    padding: 73px;
+    padding: 53px;
     margin-top: 129px;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
+    color: var(--white);
+    font-size: var(--fz-heading);
+    font-weight: 600;
     letter-spacing: 1.75px;
     text-transform: uppercase;
 }
@@ -33,7 +33,7 @@
     color: var(--color-text);
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .aboutItem {
@@ -47,6 +47,7 @@
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
+    gap: 30px;
 }
 
 .aboutItem:hover {
@@ -54,12 +55,13 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: var(--fz-xxxl);
     font-weight: 600;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: var(--fz-xxl);
+    color: var(--lightest-slate);
 }
 
 @media screen and (max-width: 830px){

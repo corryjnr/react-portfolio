@@ -11,7 +11,7 @@
   "title": "Redis Server Clone",
   "imageSrc": "projects/redis.jpg",
   "description": "Developed a simplified version of Redis using Python to understand its core concepts. Implemented core Redis commands and replication of master to slave servers.",
-  "skills": ["Python", "Redis", "Concurrency"],
+  "skills": ["Python", "Redis", "Concurrency", "Web socket"],
   "demo": "https://www.redis.io",
   "source": "https://github.com/corryjnr/corryjnr-codecrafters-redis-python"
 },

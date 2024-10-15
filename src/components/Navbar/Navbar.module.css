@@ -8,6 +8,7 @@
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
+    font-family: var(--font-mono);
 }
 
 .title {
@@ -23,7 +24,7 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
 }
 
@@ -33,7 +34,7 @@
 
 .menuItems a {
     font-size: 25px;
-    color: var(--color-text);
+    color: var(--blue);
     text-decoration: none;
 }
 

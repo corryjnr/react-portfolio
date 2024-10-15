@@ -2,32 +2,39 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background: var(--navy);
     padding: 18px 24px;
-    max-width: 49%;
+}
+.imgContainer {
+    max-width: 40%;
+    margin-right: 50px;
+    height: auto;
 }
 
 .image {
-    margin-bottom: 26px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 .title {
-    font-size: 25px;
+    font-size: var(--fz-xxl);
     font-weight: 700;
+    color: var(--white);
 }
 
 .description {
     margin-top: 6px;
-    font-size: 22px;
+    font-size: var(--fz-lg);
     font-weight: 400;
+    color: var(--lightest-slate);
 }
 
 .skills {
     width: 100%;
-    margin-top: 14px;
+    margin-top: 18px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,27 +44,32 @@
 }
 
 .skill {
-    font-size: 25px;
+    font-size: var(--fz-sm);
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-dark);
+    border: 1px solid var(--white);
+    background: transparent;
+    color: var(--lightest-slate);
     padding: 2px 22px;
 }
 
 .links {
-    width: 100%;
+    width: 60%;
     margin-top: 26px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     justify-content: space-around;
 }
 
 .link {
     text-decoration: none;
-    color: var(--color-text);
-    font-size: 30px;
+    color: var(--blue);
+    font-size: 25px;
     font-weight: 600;
     border-radius: 100px;
-    background: var(--color-primary);
+    border: 1px solid var(--blue);
+    background: transparent;
     padding: 1px 22px;
 }
 
@@ -65,10 +77,18 @@
     .container {
         padding: 10px 15px;
         max-width: 100%;
+        flex-direction: column;
+    }
+
+    .imgContainer {
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
     }
 
     .image {
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .title {
@@ -91,8 +111,8 @@
         width: 100%;
         margin-top: 22px;
         margin-bottom: 10px;
-        display: flex;
-        justify-content: space-around;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .link {

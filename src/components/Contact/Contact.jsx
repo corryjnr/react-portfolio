@@ -23,6 +23,7 @@ export const Contact = () => {
                     <a href="https://www.github.com/corryjnr">github.com/corryjnr</a>
                 </li>
             </ul>
+
         </footer>
     )
 }
