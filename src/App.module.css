@@ -13,7 +13,7 @@
     width: 1500px;
     height: 1500px;
     border-radius: 100%;
-    background: radial-gradient(circle, rgba(0, 61, 144, 0.3) 0%, rgba(0, 61, 144, 0) 70%);
+    background: radial-gradient(circle, rgba(0, 61, 144, 0.25) 0%, rgba(0, 61, 144, 0) 70%);
     pointer-events: none;
     z-index: 999;
     overflow: hidden;

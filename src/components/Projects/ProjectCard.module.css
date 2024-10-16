@@ -5,6 +5,8 @@
     flex-direction: row;
     border-radius: 10px;
     padding: 18px 24px;
+    cursor: pointer;
+    align-items: center;
 }
 .imgContainer {
     max-width: 40%;
@@ -46,9 +48,8 @@
     font-size: var(--fz-sm);
     font-weight: 400;
     border-radius: 100px;
-    border: 1px solid var(--white);
-    background: transparent;
-    color: var(--lightest-slate);
+    background: rgba(94, 234, 212, 0.1);
+    color: rgba(94, 234, 212, 1);
     padding: 2px 22px;
 }
 
@@ -69,7 +70,7 @@
     border-radius: 100px;
     border: 1px solid var(--blue);
     background: transparent;
-    padding: 1px 22px;
+    padding: 2px 20px;
 }
 
 @media screen and (max-width: 830px) {
@@ -91,7 +92,7 @@
     }
 
     .title {
-        font-size: 23px;
+        font-size: var(--fz-lg);
 
     }
 
@@ -101,7 +102,7 @@
     }
 
     .skill {
-        font-size: 15px;
+        font-size: var(--fz-xs);
         font-weight: 400;
         padding: 2px 13px;
     }

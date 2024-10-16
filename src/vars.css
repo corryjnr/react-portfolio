@@ -19,10 +19,12 @@
     --green-tint: rgba(100, 255, 218, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
+    --light-blue: #cdefff;
+
 
     /*--color-bg: #04152d;*/
     --color-bg:#04152d;
-    --color: #008080;
+    --teal: #008080;
 
     /* Fonts */
     --font-roboto: "Roboto"; 

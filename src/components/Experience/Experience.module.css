@@ -145,8 +145,8 @@
     }
 
     .skillImageContainer {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .skillImageContainer img {
@@ -154,7 +154,7 @@
     }
 
     .skill p {
-        font-size: var(--fz-sm);
+        font-size: var(--fz-xs);
         font-weight: 400;
     }
 

@@ -3,15 +3,11 @@
 .navbar {
     position: relative;
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    padding-top: 21px;
+    z-index: 2;
     margin: 0 10%;
-    overflow: hidden;
-}
-
-.navbar, .menuItems, .menuBtn, .logo {
-    box-sizing: border-box;
 }
 
 .logo {
@@ -53,9 +49,15 @@
         padding-top: 30px;
         margin: 0 5%;
     }
+    .navbar a {
+        margin-top: -20px;
+    }
+    .logo {
+        max-width: 20%;
+    }
 
     .menu {
-        position: relative;
+        position: absolute;
         right: 0;
         margin-right: 0;
         flex-direction: column;
@@ -70,7 +72,6 @@
     }
 
     .menuItems {
-        position: relative;
         display: none;
         flex-direction: column;
         align-items: flex-end;

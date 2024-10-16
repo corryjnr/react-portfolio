@@ -3,7 +3,7 @@
   "title": "Portfolio Website",
   "imageSrc": "projects/portfolio.png",
   "description": "Designed and developed a dynamic portfolio website to showcase my work and skills using Figma and React",
-  "skills": ["React", "HTML", "CSS", "Figma"],
+  "skills": ["React", "HTML", "CSS", "Figma", "Netlify"],
   "demo": "https://micorry.netlify.app/",
   "source": "https://github.com/corryjnr/react-portfolio"
 },
