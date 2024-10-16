@@ -24,10 +24,10 @@ function App() {
 
   const glowStyle = {
     position: 'absolute',
-    top: position.y, // Offset to center the glow
-    left: position.x,
-    width: '0.1px',
-    height: '0.1px', // Offset to center the glow
+    top: position.y - 0.5, // Offset to center the glow
+    left: position.x - 0.5,
+    width: '1px',
+    height: '1px', // Offset to center the glow
     borderRadius: '50%',
     backgroundColor: 'rgba(59, 130, 246, .5)', // Glow color
     boxShadow: '0 0 1000px 300px rgba(0, 150, 255, 0.07)', // Glow effect

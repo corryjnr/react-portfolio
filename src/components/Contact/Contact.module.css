@@ -31,7 +31,7 @@
 
 .text h2 {
     color: var(--lightest-slate);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 4px;
 }
@@ -79,17 +79,17 @@
     }
 
     .text h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .text p {
-        font-size: var(--fz-lg);
+        font-size: var(--fz-md);
     }
     
     .links {
         margin: 20px;
         align-items: center;
-        gap:30px;
+        gap:25px;
     }
     .link {
         gap: 5px;
