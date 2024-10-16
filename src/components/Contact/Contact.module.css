@@ -1,31 +1,32 @@
 @import "../../vars.css";
 
 .container {
+    position: relative;
     color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
-    --webkit-box-pack: center;
-    --webkit-box-align: center;
     margin-left: 10%;
     margin-right: 10%;
     height: auto;
-    min-height: 70px;
+    padding: 30px;
 }
 
-.container p {
+.container a {
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);
     color: var(--slate);
     line-height: 1;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    
 }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
     gap: 20px;
 }
 
@@ -59,7 +60,6 @@
 .link a {
     color: var(--blue);
     text-decoration: none;
-    height: 100%;
 }
 
 @media screen and (max-width: 830px) {

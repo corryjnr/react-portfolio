@@ -11,6 +11,7 @@ export const Contact = () => {
     let [gitIconColor, setGitIconColor] = React.useState(primary);
     let [gmailIconColor, setGmailIconColor] = React.useState(primary);
     let [linkedinIconColor, setLinkedinIconColor] = React.useState(primary);
+    let [textColor, setTextColor] = React.useState(primary);
     return (
         <footer id='contact' className={styles.container}>
             <div className={styles.text}>
@@ -38,7 +39,11 @@ export const Contact = () => {
                     </a>
                 </li>
             </ul>
-            <p>Designed & Built by Michael Corry</p>
+            <a href="https://github.com/corryjnr/react-portfolio">
+                <p onMouseOver={() => setTextColor(blue)} onMouseOut={() => setTextColor(primary)} style={{ color: textColor }}>
+                    Designed & Built by Michael Corry
+                </p>
+            </a>
         </footer>
     )
 }

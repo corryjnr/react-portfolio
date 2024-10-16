@@ -20,8 +20,8 @@
   "imageSrc": "projects/hrms.png",
   "description": "Developed a responsive web-based HRMS using Django. Features include user authentication, role-based access control, and reporting, ensuring data security and compliance with industry standards.",
   "skills": ["Django", "Python", "Authentication", "Web Security"],
-  "demo": "https://www.example.com/hrms-demo",
-  "source": "https://www.github.com/hrms"
+  "demo": "#",
+  "source": "#"
 },
 {
   "title": "Chatbot Song Recommender System",

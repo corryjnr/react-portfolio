@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const handleMouseMove = (event) => {
-      setPosition({ x: event.pageX, y: event.pageY });
+      setPosition({ x: event.clientX, y: event.clientY });
     };
 
     window.addEventListener('mousemove', handleMouseMove);
@@ -22,23 +22,14 @@ function App() {
     };
   }, []);
 
-  const glowStyle = {
-    position: 'absolute',
-    top: position.y - 0.5, // Offset to center the glow
-    left: position.x - 0.5,
-    width: '1px',
-    height: '1px', // Offset to center the glow
-    borderRadius: '50%',
-    backgroundColor: 'rgba(59, 130, 246, .5)', // Glow color
-    boxShadow: '0 0 1000px 300px rgba(0, 150, 255, 0.07)', // Glow effect
-    pointerEvents: 'none', // Ensures the glow doesn’t block interaction with other elements
-    zIndex: 999, // Ensure it stays on top of everything
-  };
-
   return (
     <div className={styles.App}>
       <div className="App">
-        <div style={glowStyle}></div>
+        <div className={styles.mouseGlow} style={{
+          left: `${position.x - 750}px`,
+          top: `${position.y - 750}px`,
+        }}
+        ></div>
         <div className={styles.firstPage}>
           <Navbar />
           <Hero />
