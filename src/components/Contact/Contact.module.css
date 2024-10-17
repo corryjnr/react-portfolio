@@ -14,12 +14,13 @@
 
 .container a {
     font-family: var(--font-mono);
-    font-size: var(--fz-xxs);
+    font-size: var(--fz-md);
     color: var(--slate);
     line-height: 1;
     cursor: pointer;
     padding: 10px;
     text-decoration: none;
+    letter-spacing: 2px;
     
 }
 
@@ -32,14 +33,14 @@
 
 .text h2 {
     color: var(--lightest-slate);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
 .text p {
     color: var(--slate);
-    font-size: 25px;
+    font-size: var(--fz-xl);
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -48,28 +49,27 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .link {
     display: flex;
 }
 
-.link a {
-    color: var(--blue);
-    text-decoration: none;
-}
-
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 20px;
         padding-top: 10px;
         padding-bottom: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .container a {
+        font-size: var(--fz-sm);
     }
 
     .text {
@@ -79,23 +79,20 @@
     }
 
     .text h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .text p {
         font-size: var(--fz-md);
+        letter-spacing: 1px;
     }
     
     .links {
-        margin: 20px;
+        margin: 10px;
         align-items: center;
         gap:25px;
     }
     .link {
         gap: 5px;
-    }
-
-    .link a {
-        font-size: 15px;
     }
 }

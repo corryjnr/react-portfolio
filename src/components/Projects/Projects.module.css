@@ -12,6 +12,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .projects {
@@ -25,7 +26,20 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 40px;
+        overflow-x: auto;
+    }
+
+    .header {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 40px;
+        
+    }
+
+    .title {
+        font-size: var(--fz--xxxl);
     }
 }

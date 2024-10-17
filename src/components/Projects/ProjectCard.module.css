@@ -78,6 +78,7 @@
         padding: 10px 15px;
         max-width: 100%;
         flex-direction: column;
+        cursor: default;
     }
 
     .imgContainer {
@@ -98,7 +99,7 @@
 
     .description {
         margin-top: 2px;
-        font-size: 18px;
+        font-size: var(--fz-sm);
     }
 
     .skill {
@@ -116,7 +117,7 @@
     }
 
     .link {
-        font-size: 22px;
+        font-size: var(--fz-lg);
         font-weight: 400;
         padding: 1px 22px;
     }

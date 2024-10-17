@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { getImageUrl } from '../../utils'
 import styles from "./ProjectCard.module.css"
 
@@ -8,8 +8,16 @@ export const ProjectCard = ({ project: { title, imageSrc, skills, description, d
     let teal = 'rgba(94, 234, 212, 1)'
     let [backgroundColor, setBackgroundColor] = React.useState(transparent);
     let [textColor, setTextColor] = React.useState()
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
-        <div className={styles.container} style={{ background: backgroundColor }} onMouseOver={() => { setBackgroundColor(navy); setTextColor(teal) }}
+        <div className={styles.container} style={{ background: backgroundColor }} onMouseOver={() => { (screenWidth > 830) && setBackgroundColor(navy); setTextColor(teal) }}
             onMouseOut={() => { setBackgroundColor(transparent); setTextColor('white') }}>
             <div className={styles.imgContainer}>
                 <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image} />

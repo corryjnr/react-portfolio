@@ -70,7 +70,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
-        margin-top: 15px;
+        margin-top: 45px;
         margin-left: 10%;
         margin-right: 10%;
     }

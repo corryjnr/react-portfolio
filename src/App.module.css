@@ -33,7 +33,11 @@
 }
 
 @media screen and (max-width: 830px) {
+    .App {
+        height: auto;
+        overflow: auto;
+    }
     .mouseGlow {
-        background: transparent;
+        display: none;
     }
 }

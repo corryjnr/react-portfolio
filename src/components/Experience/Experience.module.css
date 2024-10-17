@@ -105,13 +105,23 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow: visible;
     }
     .content {
         flex-direction: column;
         align-items: center;
     }
+
+    .title {
+        font-size: var(--fz--xxxl);
+        padding: 10px 15px;
+        position: sticky;
+        top: 0px;
+        z-index: 5;
+    }
+
     
     .skills {
         width: 100%;
