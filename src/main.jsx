@@ -5,7 +5,6 @@ import './index.css'
 
 import '@fontsource/roboto';
 import '@fontsource/outfit';
-import '@fontsource/inter';
 import '@fontsource/fira-code';
 import '@fontsource/roboto-mono';
 import '@fontsource/fira-mono';
