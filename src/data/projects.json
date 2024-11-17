@@ -3,7 +3,7 @@
   "title": "Portfolio Website",
   "imageSrc": "projects/portfolio.png",
   "description": "Designed and developed a dynamic portfolio website to showcase my work and skills using Figma and React",
-  "skills": ["React", "HTML", "CSS", "Figma", "Netlify"],
+  "skills": ["React", "HTML", "CSS", "Figma", "Netlify", "Responsive Design"],
   "demo": "https://micorry.netlify.app/",
   "source": "https://github.com/corryjnr/react-portfolio"
 },
@@ -11,7 +11,7 @@
   "title": "Redis Server Clone",
   "imageSrc": "projects/redis.jpg",
   "description": "Developed a simplified version of Redis using Python to understand its core concepts. Implemented core Redis commands and replication of master to slave servers.",
-  "skills": ["Python", "Redis", "Concurrency", "Web socket"],
+  "skills": ["Python", "Redis", "Concurrency", "Web socket", "Systems Programming"],
   "demo": "https://www.redis.io",
   "source": "https://github.com/corryjnr/corryjnr-codecrafters-redis-python"
 },
@@ -19,7 +19,7 @@
   "title": "Human Resource Management System",
   "imageSrc": "projects/hrms.png",
   "description": "Developed a responsive web-based HRMS using Django. Features include user authentication, role-based access control, and reporting, ensuring data security and compliance with industry standards.",
-  "skills": ["Django", "Python", "Authentication", "Web Security"],
+  "skills": ["Django", "Authentication", "Authorization", "Databse design", "Data handling"],
   "demo": "#",
   "source": "#"
 },
@@ -27,7 +27,7 @@
   "title": "Chatbot Song Recommender System",
   "imageSrc": "projects/chatbotsong.jpg",
   "description": "Created a chatbot using Python, Chatterbot, and Last.fm API to recommend songs based on user mood. Implemented sentiment analysis to gauge user mood from chat conversations.",
-  "skills": ["Python", "Chatterbot", "Sentiment Analysis", "Last.fm API"],
+  "skills": ["Python", "Chatterbot", "Sentiment Analysis", "APIs", "Model Training"],
   "demo": "#",
   "source": "#"
 }

@@ -1,11 +1,8 @@
 [
+
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
   },
   {
     "title": "JavaScript",
@@ -14,10 +11,6 @@
   {
     "title": "React",
     "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   },
   {
     "title": "GraphQL",
@@ -30,14 +23,6 @@
   {
     "title": "Django",
     "imageSrc": "skills/django.svg"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "Spring",
-    "imageSrc": "skills/spring.svg"
   },
   {
     "title": "PostgreSQL",
