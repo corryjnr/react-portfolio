@@ -10,9 +10,10 @@ export const About = () => {
             </div>
             <div className={styles.content}>
                 <p>
-                    Hi, I'm Michael, nice to meet you.<br />
-                    I'm a software developer with a degree in Computer Science based in Nairobi, Kenya. I have experience and deep interest in software development working in both the frontend and backend. This entail web design and development, APIs, and the relevant backend logic including databases. I'm currently a freelance developer working with various clients to bring their projects to life.<br /><br />
-                    I am constantly learning and view it as a driving force in my life. I have a wide variety of interests ranging from Design, Systems Programming, Machine Learning and Artificial Inteligence, Augmented Reality, Augmented Reality, Quantum Computing and everything in between. When not on my laptop I enjoy a reading of spirituality and philosophy with some fiction on the side.
+                    Hi, I’m Michael Corry, a software developer based in Nairobi, Kenya. I specialize in both frontend and backend development, including web design, APIs, and backend systems with database integration. As a freelance developer, I work with clients to deliver functional, well-crafted digital products.
+                    <br /><br />
+                    I have a keen interest in areas like systems programming, machine learning, artificial intelligence, augmented reality, and quantum computing. When I’m not coding, I enjoy exploring philosophy, spirituality, and occasionally reading fiction. Every project I undertake is an opportunity to learn and grow.
+
                 </p>
             </div>
         </section>
