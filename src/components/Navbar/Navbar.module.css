@@ -84,6 +84,10 @@
         font-size: var(--fz-md);
     }
 
+    .menuItems a:hover {
+        color: var(--white);
+    }
+
     .menuOpen {
         display: flex;
         z-index: 1; 
