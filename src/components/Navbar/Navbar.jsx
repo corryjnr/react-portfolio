@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils"
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { IoCloseOutline } from "react-icons/io5";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -11,7 +13,7 @@ export const Navbar = () => {
                 <img className={styles.logo} src={getImageUrl("nav/brand.png")} alt="Michael Corry Logo" />
             </a>
             <div className={styles.menu}>
-                <img className={styles.menuBtn} src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-button" onClick={() => setMenuOpen(!menuOpen)} />
+                {menuOpen ? <IoCloseOutline onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="30px" color="white" /> : <HiOutlineMenuAlt3 onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="30px" color="white" />}
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
                     <li>
                         <a href="#about">About</a>

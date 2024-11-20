@@ -53,6 +53,10 @@
         margin-top: -10px;
     }
 
+    .logo {
+        max-width: 20%;
+    }
+
     .menu {
         position: absolute;
         right: 0;
