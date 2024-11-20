@@ -13,7 +13,7 @@ export const Navbar = () => {
                 <img className={styles.logo} src={getImageUrl("nav/brand.png")} alt="Michael Corry Logo" />
             </a>
             <div className={styles.menu}>
-                {menuOpen ? <IoCloseOutline onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="30px" color="white" /> : <HiOutlineMenuAlt3 onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="30px" color="white" />}
+                {menuOpen ? <IoCloseOutline onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="35px" color="white" /> : <HiOutlineMenuAlt3 onClick={() => setMenuOpen(!menuOpen)} className={styles.menuBtn} size="35px" color="white" />}
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
                     <li>
                         <a href="#about">About</a>

@@ -51,10 +51,11 @@
     }
     .navbar a {
         margin-top: -10px;
+        max-width: 30%;
     }
 
     .logo {
-        max-width: 20%;
+        max-width: 60%;
     }
 
     .menu {
